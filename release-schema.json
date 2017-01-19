@@ -1,0 +1,9 @@
+{
+  "properties": {
+    "qualification": {
+      "title": "Qualification",
+      "description": "The activities undertaken in order to qualify suppliers to participate in the tender.",
+      "$ref": "#/definitions/Tender"
+    }
+  }
+}
