@@ -178,7 +178,7 @@
           "description": "All entities who submit a response to the pre-qualification.",
           "type": "array",
           "items": {
-            "$ref": "#/definitions/OrganizationRef"
+            "$ref": "#/definitions/OrganizationReference"
           },
           "uniqueItems": true,
           "mergeStrategy": "ocdsVersion"
@@ -186,7 +186,7 @@
         "procuringEntity": {
           "title": "Procuring entity",
           "description": "The entity managing the procurement, which may be different from the buyer who is paying / using the items being procured.",
-          "$ref": "#/definitions/OrganizationRef"
+          "$ref": "#/definitions/OrganizationReference"
         },
         "documents": {
           "title": "Documents",
