@@ -44,70 +44,13 @@
         },
         "status": {
           "title": "Pre-qualification status",
-          "description": "The current status of the pre-qualification based on the [preQualificationStatus codelist](http://standard.open-contracting.org/latest/en/schema/codelists/#preQualification-status)",
+          "description": "The current status of the pre-qualification based on the preQualificationStatus codelist.",
           "type": [
             "string",
             "null"
           ],
-          "enum": [
-            "planned",
-            "active",
-            "cancelled",
-            "unsuccessful",
-            "complete",
-            null
-          ],
-          "mergeStrategy": "ocdsVersion"
-        },
-        "procurementMethod": {
-          "title": "Procurement method",
-          "description": "Specify tendering method against the [method codelist](http://standard.open-contracting.org/latest/en/schema/codelists/#method) as per [GPA definitions](http://www.wto.org/english/docs_e/legal_e/rev-gpr-94_01_e.htm) of Open, Selective, Limited",
-          "type": [
-            "string",
-            "null"
-          ],
-          "enum": [
-            "open",
-            "selective",
-            "limited",
-            null
-          ],
-          "mergeStrategy": "ocdsVersion"
-        },
-        "procurementMethodDetails": {
-          "title": "Procurement method details",
-          "description": "Additional detail on the procurement method used. This field may be used to provide the local name of the particular procurement method used.",
-          "type": [
-            "string",
-            "null"
-          ],
-          "mergeStrategy": "ocdsVersion"
-        },
-        "procurementMethodRationale": {
-          "title": "Procurement method rationale",
-          "description": "Rationale of procurement method, especially in the case of Limited tendering.",
-          "type": [
-            "string",
-            "null"
-          ],
-          "mergeStrategy": "ocdsVersion"
-        },
-        "awardCriteria": {
-          "title": "Award criteria",
-          "description": "Specify the award criteria for the procurement, using the [award criteria codelist](http://standard.open-contracting.org/latest/en/schema/codelists/#award-criteria)",
-          "type": [
-            "string",
-            "null"
-          ],
-          "mergeStrategy": "ocdsVersion"
-        },
-        "awardCriteriaDetails": {
-          "title": "Award criteria details",
-          "description": "Any detailed or further information on the award or selection criteria.",
-          "type": [
-            "string",
-            "null"
-          ],
+		  "codelist": "preQualificationStatus.csv",
+		  "openCodelist": false,
           "mergeStrategy": "ocdsVersion"
         },
         "submissionMethod": {
@@ -143,7 +86,7 @@
         },
         "hasEnquiries": {
           "title": "Has enquiries?",
-          "description": "A Yes/No field to indicate whether enquiries were part of tender process.",
+          "description": "A true/false field to indicate whether any enquiries were received during the pre-qualification process",
           "type": [
             "boolean",
             "null"
@@ -159,9 +102,9 @@
           ],
           "mergeStrategy": "ocdsVersion"
         },
-        "awardPeriod": {
-          "title": "Award period",
-          "description": "The date or period on which an award is anticipated to be made.",
+        "qualificationPeriod": {
+          "title": "Qualification period",
+          "description": "The date or period when candidates will are anticipated to be qualified or pre-selected (shortlisted).",
           "$ref": "#/definitions/Period"
         },
         "numberOfTenderers": {
