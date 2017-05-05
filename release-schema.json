@@ -59,39 +59,6 @@
           ],
           "mergeStrategy": "ocdsVersion"
         },
-        "procurementMethod": {
-          "title": "Procurement method",
-          "description": "Specify tendering method against the [method codelist](http://standard.open-contracting.org/latest/en/schema/codelists/#method) as per [GPA definitions](http://www.wto.org/english/docs_e/legal_e/rev-gpr-94_01_e.htm) of Open, Selective, Limited",
-          "type": [
-            "string",
-            "null"
-          ],
-          "enum": [
-            "open",
-            "selective",
-            "limited",
-            null
-          ],
-          "mergeStrategy": "ocdsVersion"
-        },
-        "procurementMethodDetails": {
-          "title": "Procurement method details",
-          "description": "Additional detail on the procurement method used. This field may be used to provide the local name of the particular procurement method used.",
-          "type": [
-            "string",
-            "null"
-          ],
-          "mergeStrategy": "ocdsVersion"
-        },
-        "procurementMethodRationale": {
-          "title": "Procurement method rationale",
-          "description": "Rationale of procurement method, especially in the case of Limited tendering.",
-          "type": [
-            "string",
-            "null"
-          ],
-          "mergeStrategy": "ocdsVersion"
-        },
         "awardCriteria": {
           "title": "Award criteria",
           "description": "Specify the award criteria for the procurement, using the [award criteria codelist](http://standard.open-contracting.org/latest/en/schema/codelists/#award-criteria)",
