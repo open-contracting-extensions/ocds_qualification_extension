@@ -59,24 +59,6 @@
           ],
           "mergeStrategy": "ocdsVersion"
         },
-        "awardCriteria": {
-          "title": "Award criteria",
-          "description": "Specify the award criteria for the procurement, using the [award criteria codelist](http://standard.open-contracting.org/latest/en/schema/codelists/#award-criteria)",
-          "type": [
-            "string",
-            "null"
-          ],
-          "mergeStrategy": "ocdsVersion"
-        },
-        "awardCriteriaDetails": {
-          "title": "Award criteria details",
-          "description": "Any detailed or further information on the award or selection criteria.",
-          "type": [
-            "string",
-            "null"
-          ],
-          "mergeStrategy": "ocdsVersion"
-        },
         "submissionMethod": {
           "title": "Submission method",
           "description": "Specify the method by which bids must be submitted, in person, written, or electronic auction. Using the [submission method codelist](http://standard.open-contracting.org/latest/en/schema/codelists/#submission-method)",
