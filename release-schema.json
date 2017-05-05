@@ -44,19 +44,13 @@
         },
         "status": {
           "title": "Pre-qualification status",
-          "description": "The current status of the pre-qualification based on the [preQualificationStatus codelist](http://standard.open-contracting.org/latest/en/schema/codelists/#preQualification-status)",
+          "description": "The current status of the pre-qualification based on the preQualificationStatus codelist.",
           "type": [
             "string",
             "null"
           ],
-          "enum": [
-            "planned",
-            "active",
-            "cancelled",
-            "unsuccessful",
-            "complete",
-            null
-          ],
+		  "codelist": "preQualificationStatus.csv",
+		  "openCodelist": false,
           "mergeStrategy": "ocdsVersion"
         },
         "submissionMethod": {
