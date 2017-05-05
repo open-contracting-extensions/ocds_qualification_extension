@@ -110,7 +110,7 @@
         },
         "hasEnquiries": {
           "title": "Has enquiries?",
-          "description": "A Yes/No field to indicate whether enquiries were part of tender process.",
+          "description": "A true/false field to indicate whether any enquiries were received during the pre-qualification process",
           "type": [
             "boolean",
             "null"
