@@ -159,9 +159,9 @@
           ],
           "mergeStrategy": "ocdsVersion"
         },
-        "awardPeriod": {
-          "title": "Award period",
-          "description": "The date or period on which an award is anticipated to be made.",
+        "qualificationPeriod": {
+          "title": "Qualification period",
+          "description": "The date or period when candidates will are anticipated to be qualified or pre-selected (shortlisted).",
           "$ref": "#/definitions/Period"
         },
         "numberOfTenderers": {
