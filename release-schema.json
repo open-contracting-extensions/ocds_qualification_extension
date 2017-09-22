@@ -21,8 +21,7 @@
           "type": [
             "string",
             "integer"
-          ],
-          "mergeStrategy": "ocdsVersion"
+          ]
         },
         "title": {
           "title": "Pre-qualification title",
@@ -30,8 +29,7 @@
           "type": [
             "string",
             "null"
-          ],
-          "mergeStrategy": "ocdsVersion"
+          ]
         },
         "description": {
           "title": "Pre-qualification description",
@@ -39,8 +37,7 @@
           "type": [
             "string",
             "null"
-          ],
-          "mergeStrategy": "ocdsVersion"
+          ]
         },
         "status": {
           "title": "Pre-qualification status",
@@ -49,9 +46,8 @@
             "string",
             "null"
           ],
-		  "codelist": "preQualificationStatus.csv",
-		  "openCodelist": false,
-          "mergeStrategy": "ocdsVersion"
+          "codelist": "preQualificationStatus.csv",
+          "openCodelist": false
         },
         "submissionMethod": {
           "title": "Submission method",
@@ -62,8 +58,7 @@
           ],
           "items": {
             "type": "string"
-          },
-          "mergeStrategy": "ocdsVersion"
+          }
         },
         "submissionMethodDetails": {
           "title": "Submission method details",
@@ -71,8 +66,7 @@
           "type": [
             "string",
             "null"
-          ],
-          "mergeStrategy": "ocdsVersion"
+          ]
         },
         "period": {
           "title": "Pre-qualification period",
@@ -90,8 +84,7 @@
           "type": [
             "boolean",
             "null"
-          ],
-          "mergeStrategy": "ocdsVersion"
+          ]
         },
         "eligibilityCriteria": {
           "title": "Eligibility criteria",
@@ -99,8 +92,7 @@
           "type": [
             "string",
             "null"
-          ],
-          "mergeStrategy": "ocdsVersion"
+          ]
         },
         "qualificationPeriod": {
           "title": "Qualification period",
@@ -113,8 +105,7 @@
           "type": [
             "integer",
             "null"
-          ],
-          "mergeStrategy": "ocdsVersion"
+          ]
         },
         "tenderers": {
           "title": "Tenderers",
@@ -123,8 +114,7 @@
           "items": {
             "$ref": "#/definitions/OrganizationReference"
           },
-          "uniqueItems": true,
-          "mergeStrategy": "ocdsVersion"
+          "uniqueItems": true
         },
         "procuringEntity": {
           "title": "Procuring entity",
@@ -135,10 +125,6 @@
           "title": "Documents",
           "description": "All documents and attachments related to the pre-qualification, including any notices. See the [documentType codelist](http://standard.open-contracting.org/latest/en/schema/codelists/#document-type) for details of potential documents to include.",
           "type": "array",
-          "mergeStrategy": "arrayMergeById",
-          "mergeOptions": {
-            "idRef": "id"
-          },
           "items": {
             "$ref": "#/definitions/Document"
           }
@@ -147,22 +133,18 @@
           "title": "Milestones",
           "description": "A list of milestones associated with the pre-qualification.",
           "type": "array",
-          "mergeStrategy": "arrayMergeById",
-          "mergeOptions": {
-            "idRef": "id"
-          },
           "items": {
             "$ref": "#/definitions/Milestone"
           }
         },
-		"amendments": {
-			"description": "An amendment is a formal change to the pre-qualification process, and generally involves the publication of a new RFQ notice/release. The rationale and a description of the changes made can be provided here.",
-			"type": "array",
-			"title": "Amendments",
-			"items": {
-				"$ref": "#/definitions/Amendment"
-			}
-		}
+        "amendments": {
+          "description": "An amendment is a formal change to the pre-qualification process, and generally involves the publication of a new RFQ notice/release. The rationale and a description of the changes made can be provided here.",
+          "type": "array",
+          "title": "Amendments",
+          "items": {
+            "$ref": "#/definitions/Amendment"
+          }
+        }
       },
       "patternProperties": {
         "^(title_(((([A-Za-z]{2,3}(-([A-Za-z]{3}(-[A-Za-z]{3}){0,2}))?)|[A-Za-z]{4}|[A-Za-z]{5,8})(-([A-Za-z]{4}))?(-([A-Za-z]{2}|[0-9]{3}))?(-([A-Za-z0-9]{5,8}|[0-9][A-Za-z0-9]{3}))*(-([0-9A-WY-Za-wy-z](-[A-Za-z0-9]{2,8})+))*(-(x(-[A-Za-z0-9]{1,8})+))?)|(x(-[A-Za-z0-9]{1,8})+)))$": {
