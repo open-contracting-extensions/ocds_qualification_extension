@@ -1,7 +1,0 @@
-{
-  "properties": {
-    "qualification": {
-      "$ref": "#/definitions/Tender"
-    }
-  }
-}
