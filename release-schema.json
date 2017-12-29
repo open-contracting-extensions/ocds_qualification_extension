@@ -47,7 +47,15 @@
             "null"
           ],
           "codelist": "preQualificationStatus.csv",
-          "openCodelist": false
+          "openCodelist": false,
+          "enum": [
+            "planned",
+            "active",
+            "cancelled",
+            "unsuccessful",
+            "complete",
+            null
+          ]
         },
         "submissionMethod": {
           "title": "Submission method",
