@@ -4,6 +4,35 @@
       "title": "Pre-qualification",
       "description": "The activities undertaken in order to qualify suppliers to participate in the tender.",
       "$ref": "#/definitions/PreQualification"
+    },
+    "tag": {
+      "items": {
+        "enum": [
+          "planning",
+          "planningUpdate",
+          "tender",
+          "tenderAmendment",
+          "tenderUpdate",
+          "tenderCancellation",
+          "award",
+          "awardUpdate",
+          "awardCancellation",
+          "contract",
+          "contractUpdate",
+          "contractAmendment",
+          "implementation",
+          "implementationUpdate",
+          "contractTermination",
+          "compiled",
+          "qualification",
+          "shortlist",
+          "qualificationUpdate",
+          "qualificationCancellation",
+          "qualificationAmendment",
+          "shortlistUpdate"
+        ]
+      },
+      "codelist": "releaseTag.csv"
     }
   },
   "definitions": {
