@@ -32,7 +32,8 @@
           "shortlistUpdate"
         ]
       },
-      "codelist": "releaseTag.csv"
+      "codelist": "releaseTag.csv",
+      "openCodelist": false
     }
   },
   "definitions": {
