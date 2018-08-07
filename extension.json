@@ -13,5 +13,8 @@
   ],
   "codelists": [
     "preQualificationStatus.csv"
+  ],
+  "schemas": [
+    "release-schema.json"
   ]
 }
