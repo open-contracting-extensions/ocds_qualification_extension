@@ -9,7 +9,7 @@
   "definitions": {
     "PreQualification": {
       "title": "Pre-qualification",
-      "description": "Data regarding pre-qualification process - limiting the number of qualified bidders by reviewing each bidder\u2019s qualifications against a set of criteria.",
+      "description": "Data regarding pre-qualification process - limiting the number of qualified bidders by reviewing each bidder's qualifications against a set of criteria.",
       "type": "object",
       "required": [
         "id"
