@@ -13,3 +13,9 @@ For more background on this extension, see discussion in [#36](https://github.co
 ## Issues
 
 Report issues for this extension in the [ocds-extensions repository](https://github.com/open-contracting/ocds-extensions/issues), putting the extension's name in the issue's title.
+
+## Changelog
+
+### 2019-01-24
+
+* Remove multilingual support for non-existent `PreQualification.procurementMethodRationale` and `PreQualification.awardCriteriaDetails` fields.
