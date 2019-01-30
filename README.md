@@ -1,20 +1,19 @@
-# Qualification (profile use only)
+# Qualification
 
-This extension forms part of the [OCDS for PPPs profile](http://standard.open-contracting.org/profiles/ppp/) which adds a qualification section between planning and tender. 
+This extension should only be used as part of the [OCDS for PPPs profile](http://standard.open-contracting.org/profiles/ppp/). It adds a `qualification` section between `planning` and `tender`; this second initiation stage is incompatible with the OCDS 1.x definition of a contracting process.
 
-Profiles re-purpose elements of the OCDS data model, but are not backwards compatible with OCDS.
+## Example
 
-In particular, this extension adds a second initiation stage (`qualification`), which is incompatible with the OCDS 1.x definition of a Contracting Process.
-
-This extension should not be used outside of the PPP Profile. 
-
-For more background on this extension, see discussion in [#36](https://github.com/open-contracting-extensions/public-private-partnerships/issues/36).
+```json
+```
 
 ## Issues
 
 Report issues for this extension in the [ocds-extensions repository](https://github.com/open-contracting/ocds-extensions/issues), putting the extension's name in the issue's title.
 
 ## Changelog
+
+This extension was originally discussed in <https://github.com/open-contracting-extensions/public-private-partnerships/issues/36>.
 
 ### 2019-01-24
 
