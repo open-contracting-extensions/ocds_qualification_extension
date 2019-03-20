@@ -21,7 +21,8 @@
           "type": [
             "string",
             "integer"
-          ]
+          ],
+          "minLength": 1
         },
         "title": {
           "title": "Pre-qualification title",
