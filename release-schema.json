@@ -67,7 +67,8 @@
           ],
           "items": {
             "type": "string"
-          }
+          },
+          "uniqueItems": true
         },
         "submissionMethodDetails": {
           "title": "Submission method details",
@@ -136,7 +137,8 @@
           "type": "array",
           "items": {
             "$ref": "#/definitions/Document"
-          }
+          },
+          "uniqueItems": true
         },
         "milestones": {
           "title": "Milestones",
@@ -144,7 +146,8 @@
           "type": "array",
           "items": {
             "$ref": "#/definitions/Milestone"
-          }
+          },
+          "uniqueItems": true
         },
         "amendments": {
           "description": "An amendment is a formal change to the pre-qualification process, and generally involves the publication of a new RFQ notice/release. The rationale and a description of the changes made can be provided here.",
@@ -152,7 +155,8 @@
           "title": "Amendments",
           "items": {
             "$ref": "#/definitions/Amendment"
-          }
+          },
+          "uniqueItems": true
         }
       },
       "patternProperties": {
