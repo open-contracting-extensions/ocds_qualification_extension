@@ -43,6 +43,10 @@ Report issues for this extension in the [ocds-extensions repository](https://git
 
 This extension was originally discussed in <https://github.com/open-contracting-extensions/public-private-partnerships/issues/36>.
 
+### 2019-03-20
+
+* Set `"uniqueItems": true` on array fields, and add `"minLength": 1` on required string fields.
+
 ### 2019-01-24
 
 * Remove multilingual support for non-existent `PreQualification.procurementMethodRationale` and `PreQualification.awardCriteriaDetails` fields.
