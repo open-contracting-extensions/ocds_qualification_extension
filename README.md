@@ -1,6 +1,6 @@
 # Qualification
 
-This extension should only be used as part of the [OCDS for PPPs profile](http://standard.open-contracting.org/profiles/ppp/). It adds a `preQualification` section between `planning` and `tender`; this second initiation stage is incompatible with the OCDS 1.x definition of a contracting process.
+This extension adds a `preQualification` section between `planning` and `tender`. It was designed to be used as part of the [OCDS for PPPs profile](http://standard.open-contracting.org/profiles/ppp/): see the documentation in [II.1](http://standard.open-contracting.org/profiles/ppp/latest/en/framework/#ii-1-pre-qualification) and [II.2](http://standard.open-contracting.org/profiles/ppp/latest/en/framework/#ii-2-list-of-pre-qualified-suppliers).
 
 ## Example
 
