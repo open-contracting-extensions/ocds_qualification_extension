@@ -12,6 +12,7 @@
     "1.1"
   ],
   "codelists": [
+    "+partyRole.csv",
     "preQualificationStatus.csv"
   ],
   "schemas": [
