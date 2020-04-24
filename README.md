@@ -43,6 +43,10 @@ Report issues for this extension in the [ocds-extensions repository](https://git
 
 ## Changelog
 
+### 2020-04-24
+
+* Add `minProperties`, `minItems` and/or `minLength` properties.
+
 This extension was originally discussed in <https://github.com/open-contracting-extensions/public-private-partnerships/issues/36>.
 
 ### 2019-05-01
