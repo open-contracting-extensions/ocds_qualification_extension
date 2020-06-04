@@ -44,7 +44,7 @@
         },
         "status": {
           "title": "Pre-qualification status",
-          "description": "The current status of the pre-qualification based on the preQualificationStatus codelist.",
+          "description": "The current status of the pre-qualification.",
           "type": [
             "string",
             "null"
@@ -62,7 +62,7 @@
         },
         "submissionMethod": {
           "title": "Submission method",
-          "description": "Specify the method by which bids must be submitted, in person, written, or electronic auction. Using the [submission method codelist](http://standard.open-contracting.org/latest/en/schema/codelists/#submission-method)",
+          "description": "The methods by which bids are submitted.",
           "type": [
             "array",
             "null"
@@ -71,6 +71,8 @@
             "type": "string",
             "minLength": 1
           },
+          "codelist": "submissionMethod.csv",
+          "openCodelist": true,
           "uniqueItems": true,
           "minItems": 1
         },
@@ -140,7 +142,7 @@
         },
         "documents": {
           "title": "Documents",
-          "description": "All documents and attachments related to the pre-qualification, including any notices. See the [documentType codelist](http://standard.open-contracting.org/latest/en/schema/codelists/#document-type) for details of potential documents to include.",
+          "description": "All documents and attachments related to the pre-qualification, including any notices. See the `documentType.csv` codelist for details of potential documents to include.",
           "type": "array",
           "items": {
             "$ref": "#/definitions/Document"
