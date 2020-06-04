@@ -1,6 +1,6 @@
 # Qualification
 
-**This extension should only be used as part of the [OCDS for PPPs profile](http://standard.open-contracting.org/profiles/ppp/), as it is not clear that it is consistent with the semantics of OCDS.**
+**Only use this extension as part of the [OCDS for PPPs profile](http://standard.open-contracting.org/profiles/ppp/), as it is not clear that it is consistent with the semantics of OCDS.**
 
 This extension adds a `preQualification` section between `planning` and `tender`. It was designed to be used as part of the [OCDS for PPPs profile](http://standard.open-contracting.org/profiles/ppp/): see the documentation in [II.1](http://standard.open-contracting.org/profiles/ppp/latest/en/framework/#ii-1-pre-qualification) and [II.2](http://standard.open-contracting.org/profiles/ppp/latest/en/framework/#ii-2-list-of-pre-qualified-suppliers).
 
@@ -42,6 +42,10 @@ This extension adds a `preQualification` section between `planning` and `tender`
 Report issues for this extension in the [ocds-extensions repository](https://github.com/open-contracting/ocds-extensions/issues), putting the extension's name in the issue's title.
 
 ## Changelog
+
+### 2020-06-04
+
+* Review normative and non-normative words
 
 ### 2020-04-24
 
