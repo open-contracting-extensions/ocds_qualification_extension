@@ -43,15 +43,17 @@ Report issues for this extension in the [ocds-extensions repository](https://git
 
 ## Changelog
 
+### 2024-03-28
+
+* [Abandon in-file translations](https://github.com/open-contracting/standard/pull/1665).
+
 ### 2020-06-04
 
-* Review normative and non-normative words
+* Review normative and non-normative words.
 
 ### 2020-04-24
 
 * Add `minProperties`, `minItems` and/or `minLength` properties.
-
-This extension was originally discussed in <https://github.com/open-contracting-extensions/public-private-partnerships/issues/36>.
 
 ### 2019-05-01
 
@@ -64,3 +66,5 @@ This extension was originally discussed in <https://github.com/open-contracting-
 ### 2019-01-24
 
 * Remove multilingual support for non-existent `PreQualification.procurementMethodRationale` and `PreQualification.awardCriteriaDetails` fields.
+
+This extension was originally discussed in <https://github.com/open-contracting-extensions/public-private-partnerships/issues/36>.
