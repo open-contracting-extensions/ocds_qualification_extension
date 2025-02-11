@@ -57,7 +57,7 @@ Report issues for this extension in the [ocds-extensions repository](https://git
 
 ### 2019-05-01
 
-* Add 'qualifiedBidder' and 'disqualifiedBidder' codes to `+partyRole.csv`.
+* Add 'qualifiedBidder' and 'disqualifiedBidder' codes to the `+partyRole.csv` codelist patch.
 
 ### 2019-03-20
 
